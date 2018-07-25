@@ -1,33 +1,6 @@
 public class ControlFlowExercises {
     public static void main(String[] args) {
 
-//        int i = 5;
-////        boolean condition = true;
-//        while (i <= 15) {
-//            System.out.print(i);
-//            System.out.print(" ");
-//            i += 1;
-//        }
-//
-//
-//        int f = 0;
-//        do {
-//            System.out.println(f);
-//            f += 2;
-//        } while (f <= 100);
-//
-//
-//
-//
-//        int g = 100;
-//        do {
-//            System.out.println(g);
-//            g -= 5;
-//        } while (g >= -10);
-//
-//
-//
-
         long e = 2;
 
         do{
