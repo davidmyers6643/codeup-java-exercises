@@ -4,7 +4,7 @@ public class ControlFlowExercises {
         Scanner sc = new Scanner(System.in);
 
 
-        boolean anotherGrade = true;
+        boolean userContinues = true;
 
 //        do {
 //            System.out.print("What number would you like to go up to?");
@@ -71,6 +71,8 @@ public class ControlFlowExercises {
 //                System.out.println("Not a valid grade.");
 //                break;
 //        }
+
+        boolean anotherGrade = true;
         do {
             System.out.print("Please enter a numerical grade from 0 to 100 ");
 
