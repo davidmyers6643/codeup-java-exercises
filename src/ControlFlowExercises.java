@@ -22,12 +22,12 @@ public class ControlFlowExercises {
 //            System.out.printf("% -9d", i * i * i);
 //            System.out.println();
 //        }
-//        System.out.print("Would you like to enter another number (y/n)?");
-//        String userResponse = sc.next();
-//        if (!userResponse.equalsIgnoreCase(anotherString: "y")){
-//            userContinues = false;
-//        }
-//    }while (userContinues);
+        System.out.print("Would you like to enter another number? (y/n)");
+        String userResponse = sc.next();
+        if (!userResponse.equalsIgnoreCase("y")){
+            userContinues = false;
+
+    }while(userContinues);
 //
 
 
@@ -50,7 +50,7 @@ public class ControlFlowExercises {
 
 
 //        System.out.println("What was your grade?");
-//        int grade = sc.nextLine();
+//        String grade = sc.nextLine();
 //        switch(grade) {
 //            case (grade > 87 && grade = 100):
 //                System.out.println("A");
@@ -71,33 +71,32 @@ public class ControlFlowExercises {
 //                System.out.println("Not a valid grade.");
 //                break;
 //        }
-
-        boolean anotherGrade = true;
-        do {
-            System.out.print("Please enter a numerical grade from 0 to 100 ");
-
-        int numericGrade = sc.nextInt();
-
-        if (numericGrade >= 88){
-            System.out.println("A");
-        } else if (numericGrade >= 80){
-            System.out.println("B");
-        }else if (numericGrade >= 67) {
-            System.out.println("C");
-        } else if (numericGrade >= 60) {
-            System.out.println("D");
-        }else {
-            System.out.println("F");
-        }
-
-
+//
+//        boolean anotherGrade = true;
+//        do {
+//            System.out.print("Please enter a numerical grade from 0 to 100 ");
+//
+//        int numericGrade = sc.nextInt();
+//
+//        if (numericGrade >= 88){
+//            System.out.println("A");
+//        } else if (numericGrade >= 80){
+//            System.out.println("B");
+//        }else if (numericGrade >= 67) {
+//            System.out.println("C");
+//        } else if (numericGrade >= 60) {
+//            System.out.println("D");
+//        }else {
+//            System.out.println("F");
+//        }
 
 
-        System.out.print("Would you like to enter your grade? (y/n)");
-        String userResponse = sc.next();
-        if (!userResponse.equalsIgnoreCase( "y")) {
-            anotherGrade = false;
-        }
-        }while (anotherGrade);
+
+
+//        System.out.print("Would you like to enter your grade? (y/n)");
+//        String userResponse = sc.next();
+//        if (!userResponse.equalsIgnoreCase( "y")) {
+//            anotherGrade = false;
+//         }while (anotherGrade);
     }
 }

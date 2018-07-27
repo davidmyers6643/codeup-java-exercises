@@ -18,8 +18,8 @@ public class Bob {
             System.out.println("Whatever");
         }
         System.out.print("Would you like to ask Bob another question? (y/n)");
-        String msg = input.next();
-        if (!msg.equalsIgnoreCase( "y")) {
+        String msg1 = input.next();
+        if (!msg1.equalsIgnoreCase( "y")) {
             answer = false;
 
         }while (answer);
