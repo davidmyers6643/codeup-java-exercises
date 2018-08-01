@@ -1,9 +1,20 @@
+import util.Input;
+
 public class Person {
 
-       private String name;
 
 
-        public String getName() {
+    private String name;
+    public Person (String name){
+        setName(name);
+    }
+    public Person (){
+        setName(name);
+    }
+
+
+
+    public String getName() {
             return this.name;
         }
        public void setName(String name){
@@ -13,9 +24,8 @@ public class Person {
             System.out.println("Hello " + this.name);
         }
 
-        public static void main(String[] arg) {
 
-    }
+
 //        public String lastName;
 //
 //        public String sayHello() {
