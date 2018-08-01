@@ -3,26 +3,37 @@ import util.Input;
 public class Person {
 
 
+//    Class variable
+private String name;
 
-    private String name;
-    public Person (String name){
-        setName(name);
-    }
+
+//share with all sub-class
+protected String lastName;
+
     public Person (){
         setName(name);
     }
+
+    public Person (String name){
+        this.name = name;
+    }
+
+
+
 
 
 
     public String getName() {
             return this.name;
         }
-       public void setName(String name){
-           this.name = name;
-       }
-        public void sayHello(){
+
+    public void setName(String name){ this.name = name; }
+
+    public void sayHello(){
             System.out.println("Hello " + this.name);
         }
+
+
 
 
 

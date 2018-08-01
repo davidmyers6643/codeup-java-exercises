@@ -23,13 +23,24 @@ public class Input {
         return (result.equals("y") || result.equals("yes"));
     }
 
-    public int getIntWithinRange(int min, int max){
+//    public int getIntWithinRange(int min, int max){
+//
+//        int userInput = Integer.parseInt(this.getString("Give me a number between " + min + " and " + max));
+//
+//        if(userInput < min || userInput > max){
+//            System.err.println("Number our of range");
+//            getIntWithinRange(min, max);
+//        }
+//
+//        return userInput;
+//    }
 
+    public int getInt(int min, int max) {
         int userInput = Integer.parseInt(this.getString("Give me a number between " + min + " and " + max));
 
         if(userInput < min || userInput > max){
             System.err.println("Number our of range");
-            getIntWithinRange(min, max);
+            getInt(min, max);
         }
 
         return userInput;
@@ -37,7 +48,9 @@ public class Input {
 
     public int getInt(){
         return Integer.parseInt(this.getString("Give me a number"));
+
     }
+
 
     public double getDoubleWithinRange(double min, double max){
         double userInput = Double.parseDouble(this.getString("Give me a decimal number between " + min + " and " + max));
