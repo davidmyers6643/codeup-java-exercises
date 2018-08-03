@@ -3,7 +3,7 @@ import util.Input;
 public class Person {
 
 
-//    Class variable
+//    GradesApplication variable
 private String name;
 
 
